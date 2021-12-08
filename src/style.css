@@ -1,0 +1,54 @@
+.summer-page {
+	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.winter-page{
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.autumn-page{
+	background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);	
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.spring-page {
+	background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.link-text {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: azure;
+	font-family: 'Readex Pro', sans-serif;
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
